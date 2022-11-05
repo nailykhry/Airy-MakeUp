@@ -1079,7 +1079,12 @@ ol {
 	margin-bottom: 50px;
 }
 
-.filter__controls li {
+.filter__tryon {
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+.filter__controls li{
 	font-size: 14px;
 	list-style: none;
 	display: inline-block;
@@ -1089,11 +1094,23 @@ ol {
 	cursor: pointer;
 }
 
-.filter__controls li.active:after {
+.filter__tryon li{
+	font-size: 16px;
+	list-style: none;
+	display: inline-block;
+	color: #111111;
+	margin-right: 35px;
+	position: relative;
+	cursor: pointer;
+}
+
+.filter__controls li.active:after,
+.filter__tryon li.active:after {
 	opacity: 1;
 }
 
-.filter__controls li:after {
+.filter__controls li:after,
+.filter__tryon li:after{
 	position: absolute;
 	left: 0;
 	bottom: -4px;
@@ -1104,7 +1121,8 @@ ol {
 	opacity: 0;
 }
 
-.filter__controls li:last-child {
+.filter__controls li:last-child,
+.filter__tryon li:last-child {
 	margin-right: 0;
 }
 

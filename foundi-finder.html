@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/foundi-finder.css" type="text/css">
 </head>
 
 <body>
@@ -67,8 +68,8 @@
                 <div class="col-xl-6 col-lg-7">
                     <nav class="header__menu">
                         <ul>
-                            <li class="active"><a href="./index.html">Home</a></li>
-                            <li><a href="#">AIRY STUDIO</a>
+                            <li><a href="./index.html">Home</a></li>
+                            <li class="active"><a href="#">AIRY STUDIO</a>
                                 <ul class="dropdown">
                                     <li><a href="./foundi-finder.html">Foundation Shade Finder</a></li>
                                     <li><a href="./try-on.html">Virtual Try On</a></li>
@@ -124,7 +125,33 @@
     <!-- Header Section End -->
 
     <!-- Quiz Foundi Section Begin -->
-    
+    <div class="container-fluid">
+        <div class="inner-div">
+            <h5 class="question m-4">QUESTION</h5>
+            <ul>
+                <li>
+                    <input type="radio" name="answer" id="ans1" class='answer'>
+                    <label for="ans1" id="option1">Answer 1</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="ans2" class='answer'>
+                    <label for="ans2" id="option2">Answer 2</label>
+                </li>
+            </ul>
+            <button id="submit" class="btn mx-4"><b>Submit</b></button>
+
+            <div id="showScore" class="scoreArea">
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid px-4">
+        <div class="recommen">
+            <div id="recom-title" class="recom-title"></div>
+            <div id="reason" class="reason"></div>
+            <div id="foundi" class="foundi"></div>
+        </div>
+    </div>`;
 
 <!-- Instagram Begin -->
 <div class="instagram">
@@ -276,6 +303,7 @@
 <script src="js/owl.carousel.min.js"></script>
 <script src="js/jquery.nicescroll.min.js"></script>
 <script src="js/main.js"></script>
+<script src="js/foundi-finder.js"></script>
 </body>
 
 </html>
