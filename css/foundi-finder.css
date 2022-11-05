@@ -1,0 +1,37 @@
+.inner-div{
+    padding : 50px;
+    margin : 50px 100px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    background-color: #F1F1F1;
+}
+
+.inner-div li{
+    list-style: none;
+    font-size: 1.1em;
+    background-color: #fff;
+    margin: 15px 0px;
+    padding : 7px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px #aaaaaa;
+}
+
+.inner-div ul{
+    margin : 0px 20px;
+}
+
+input[type='radio'] {
+    accent-color: #ca1515;
+}
+
+.btn{
+    background-color: #ca1515;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.card{
+    border-radius: 10px;
+}
+
