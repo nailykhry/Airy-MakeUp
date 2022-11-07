@@ -41,7 +41,7 @@ const matte = [
     },
     {
         title : 'New Peach',
-        d_price : 'Rp 50.999',
+        d_price : 'Rp 59.999',
         bd_price : 'Rp 90.000'
     },
 ]
